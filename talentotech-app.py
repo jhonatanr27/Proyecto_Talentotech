@@ -27,9 +27,14 @@ data = pd.DataFrame({
     "Región": np.random.choice(["Norte", "Sur", "Este", "Oeste"], size=100)
 })
 
+
 # 3. Implementación de la Barra de Navegación
 menu = st.sidebar.radio(
     "Selecciona una opción:",
     ["Inicio", "Datos", "Visualización", "Configuración"]
 )
                 
+# 4. Mostrar los Datos
+if menu == "Datos":
+    st.subheader("📂 Datos Generados")
+    st.dataframe(data)
