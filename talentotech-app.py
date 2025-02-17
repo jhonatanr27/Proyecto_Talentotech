@@ -9,7 +9,7 @@ from datetime import datetime
 # 1. configuración inicial de la aplicación
 
 st.set_page_config(
-   page_litle="Dashboard Interactivo",
+   page_title="Dashboard Interactivo",
    page_icon= "♫",
    layout="wide"
 )
