@@ -13,6 +13,6 @@ st.set_page_config(
    page_icon= "♫",
    layout="wide"
 )
-st.title("♫" "Dashboard Interactivo con Streamlit")
-st.sidebar.title(" " "Opciones de Navegacion"
-                )
+st.title("♫ Dashboard Interactivo con Streamlit")
+st.sidebar.title(" Opciones de Navegacion")
+                
